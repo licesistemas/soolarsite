@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="es-PY">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SOOLARWIN Energía Solar & Transición Energética. Plantas solares residenciales, empresariales y agro con atención en todo Brasil y Paraguay." />
+  <meta name="theme-color" content="#050505" />
+  <title>SOOLARWIN | Energía Solar en Brasil y Paraguay</title>
+  <link rel="icon" href="assets/icon-soolarwin.png" />
+  <link rel="preload" as="image" href="assets/hero-usina-solar.png" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="alternate" hreflang="pt-BR" href="index-pt.html" />
+  <link rel="alternate" hreflang="es-PY" href="index-es.html" />
+  <style>
+    .lang-switcher {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-right: 6px;
+      padding: 4px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    .lang-switcher__item {
+      width: 34px;
+      height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: 19px;
+      line-height: 1;
+      opacity: .7;
+      border: 1px solid transparent;
+      transition: opacity .2s ease, transform .2s ease, background .2s ease, border-color .2s ease;
+    }
+    .lang-switcher__item:hover,
+    .lang-switcher__item:focus-visible {
+      opacity: 1;
+      transform: translateY(-1px);
+      background: rgba(255,255,255,.12);
+      outline: none;
+    }
+    .lang-switcher__item.is-active {
+      opacity: 1;
+      background: rgba(255, 205, 64, .18);
+      border-color: rgba(255, 205, 64, .45);
+    }
+    .mobile-nav .lang-switcher {
+      display: flex;
+      width: fit-content;
+      margin: 8px 0 0;
+    }
+    @media (max-width: 760px) {
+      .site-header .lang-switcher { display: none; }
+      .mobile-nav .lang-switcher { display: flex; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-glow page-glow--one" aria-hidden="true"></div>
+  <div class="page-glow page-glow--two" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="assets/logo-soolarwin.png" alt="SOOLARWIN Energía Solar & Transición Energética" />
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <a href="#solucoes">Soluciones</a>
+      <a href="#beneficios">Beneficios</a>
+      <a href="#processo">Proceso</a>
+      <a href="#projetos">Proyectos</a>
+      <a href="#contato">Contacto</a>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-switcher" aria-label="Seleccionar idioma">
+        <a class="lang-switcher__item" href="index-pt.html" lang="pt-BR" hreflang="pt-BR" aria-label="Português" title="Português">🇧🇷</a>
+        <a class="lang-switcher__item is-active" href="index-es.html" lang="es-PY" hreflang="es-PY" aria-label="Español" title="Español">🇵🇾</a>
+      </div>
+      <a class="btn btn--ghost" href="https://wa.me/5545999114139?text=Hola%2C%20quiero%20solicitar%20un%20presupuesto%20con%20SOOLARWIN." target="_blank" rel="noreferrer">
+        <svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16.04 3.2A12.74 12.74 0 0 0 5.08 22.43L3.4 28.8l6.52-1.62A12.74 12.74 0 1 0 16.04 3.2Zm0 2.34a10.4 10.4 0 0 1 8.83 15.9 10.4 10.4 0 0 1-13.78 3.56l-.46-.27-3.88.96 1-3.76-.3-.49A10.4 10.4 0 0 1 16.04 5.54Zm-5.02 5.5c-.24.54-.5 1.08-.5 1.76 0 .68.36 1.35.52 1.57.17.22 1.87 2.98 4.61 4.06 2.28.9 2.74.72 3.24.68.5-.04 1.61-.66 1.84-1.3.23-.64.23-1.18.16-1.3-.07-.12-.25-.2-.52-.34-.27-.14-1.61-.8-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.47.07-.72.34Z"/></svg>
+        WhatsApp
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" data-menu-toggle>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Menú móvil" data-mobile-nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#solucoes">Soluciones</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#processo">Proceso</a>
+    <a href="#projetos">Proyectos</a>
+    <a href="#contato">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-media" aria-hidden="true">
+        <img src="assets/hero-usina-solar.png" alt="" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="eyebrow"><span></span> Energía que transforma el presente</div>
+          <h1>Ahorre hasta un 95% <strong>en su factura de energía</strong></h1>
+          <p>
+            Plantas solares residenciales, empresariales y agro de alto rendimiento,
+            con atención en todo Brasil y Paraguay.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn--primary" href="#contato">Solicitar presupuesto</a>
+            <a class="btn btn--glass" href="#calculadora">Simular ahorro</a>
+          </div>
+        </div>
+
+        <aside class="hero-card reveal delay-1" aria-label="Destacados de SOOLARWIN">
+          <div class="card-orbit" aria-hidden="true"></div>
+          <p class="mini-label">Atención Brasil y Paraguay</p>
+          <h2>Energía solar con proyecto pensado para cada región y necesidad.</h2>
+          <ul>
+            <li><span>01</span> Análisis de consumo y viabilidad</li>
+            <li><span>02</span> Proyecto técnico y dimensionamiento</li>
+            <li><span>03</span> Instalación, homologación y posventa en amplia área de atención</li>
+          </ul>
+        </aside>
+      </div>
+
+      <div class="container trust-bar reveal delay-2">
+        <div><strong>Residenciales</strong><span>Ahorro para su hogar</span></div>
+        <div><strong>Empresariales</strong><span>Reducción de costos operativos</span></div>
+        <div><strong>Agro</strong><span>Energía para propiedades rurales</span></div>
+        <div><strong>Brasil y Paraguay</strong><span>Área de atención</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="solucoes">
+      <div class="container section-head reveal">
+        <div>
+          <p class="section-kicker">Soluciones SOOLARWIN</p>
+          <h2>Tres tipos de plantas solares para cada necesidad.</h2>
+        </div>
+        <p>
+          Desde el estudio inicial hasta la entrega final, desarrollamos plantas solares residenciales, empresariales y agro
+          con foco en ahorro, seguridad, desempeño y retorno de inversión.
+        </p>
+      </div>
+
+      <div class="container solution-grid">
+        <article class="solution-card reveal">
+          <figure><img src="assets/projeto-telhado.png" alt="Planta solar residencial instalada en un techo moderno" /></figure>
+          <div class="solution-body">
+            <div class="solution-icon">⌂</div>
+            <h3>Plantas Residenciales</h3>
+            <p>Soluciones para casas y condominios que desean reducir la factura de energía con generación propia, estética y seguridad.</p>
+            <a href="#contato">Quiero saber más <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="solution-card reveal delay-1">
+          <figure><img src="assets/hero-usina-solar.png" alt="Planta solar empresarial con gran volumen de paneles fotovoltaicos" /></figure>
+          <div class="solution-body">
+            <div class="solution-icon">▦</div>
+            <h3>Plantas Empresariales</h3>
+            <p>Proyectos para comercios, industrias y empresas que buscan previsibilidad, ahorro y competitividad energética.</p>
+            <a href="#contato">Quiero saber más <span>→</span></a>
+          </div>
+        </article>
+
+        <article class="solution-card reveal delay-2">
+          <figure><img src="assets/projeto-solo.png" alt="Planta solar agro en suelo para propiedad rural" /></figure>
+          <div class="solution-body">
+            <div class="solution-icon">☀</div>
+            <h3>Plantas Agro</h3>
+            <p>Energía para propiedades rurales, granjas, fincas, riego y operaciones agro que necesitan reducir costos fijos.</p>
+            <a href="#contato">Quiero saber más <span>→</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="beneficios">
+      <div class="container split-grid">
+        <div class="split-copy reveal">
+          <p class="section-kicker">¿Por qué elegir energía solar?</p>
+          <h2>Más ahorro, más previsibilidad y más valor para su inmueble.</h2>
+          <p>
+            SOOLARWIN desarrolla el proyecto con visión completa: consumo, perfil de uso,
+            estructura, orientación, sombreado, equipos, expansión futura y realidad de cada región atendida.
+          </p>
+          <a class="btn btn--primary" href="#contato">Hablar con un especialista</a>
+        </div>
+
+        <div class="benefit-grid">
+          <article class="benefit-card reveal"><span>⚡</span><h3>Ahorro real</h3><p>Reduzca su dependencia de la distribuidora y tenga más control sobre los costos de energía.</p></article>
+          <article class="benefit-card reveal delay-1"><span>🛡</span><h3>Seguridad técnica</h3><p>Proyecto pensado para desempeño, protección eléctrica, instalación correcta y operación estable.</p></article>
+          <article class="benefit-card reveal delay-2"><span>🌿</span><h3>Sostenibilidad</h3><p>Generación limpia con menor impacto ambiental e imagen más moderna para su empresa.</p></article>
+          <article class="benefit-card reveal delay-3"><span>📈</span><h3>Retorno financiero</h3><p>Inversión con larga vida útil, valorización del inmueble y previsibilidad para el futuro.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section calculator-section" id="calculadora">
+      <div class="container calculator-card reveal">
+        <div>
+          <p class="section-kicker">Simulación rápida</p>
+          <h2>Estime su ahorro con energía solar.</h2>
+          <p>Informe el valor promedio de su factura de energía y vea una proyección inicial. El presupuesto real depende del análisis técnico de la ciudad, región y unidad consumidora.</p>
+        </div>
+
+        <form class="calc-form" data-calc-form>
+          <label for="bill">Valor promedio de la factura de energía</label>
+          <div class="currency-field">
+            <span>R$</span>
+            <input id="bill" name="bill" type="number" min="100" step="50" placeholder="Ej: 800" required />
+          </div>
+          <button class="btn btn--primary" type="submit">Calcular ahorro</button>
+          <output class="calc-result" data-calc-result>Ingrese su promedio mensual para comenzar.</output>
+        </form>
+      </div>
+    </section>
+
+    <section class="section process-section" id="processo">
+      <div class="container section-head reveal">
+        <div>
+          <p class="section-kicker">Cómo funciona</p>
+          <h2>Un proceso simple, técnico y transparente.</h2>
+        </div>
+        <p>Organizamos cada etapa para que usted entienda el proyecto y acompañe la evolución con claridad.</p>
+      </div>
+
+      <div class="container process-grid">
+        <article class="process-step reveal"><span>01</span><h3>Diagnóstico</h3><p>Evaluación del consumo, objetivo del cliente, espacio disponible y escenario de conexión.</p></article>
+        <article class="process-step reveal delay-1"><span>02</span><h3>Projeto</h3><p>Dimensionamiento, estimación de generación, selección de equipos y propuesta técnica.</p></article>
+        <article class="process-step reveal delay-2"><span>03</span><h3>Instalação</h3><p>Ejecución con equipo calificado, estándar visual y atención a la seguridad eléctrica.</p></article>
+        <article class="process-step reveal delay-3"><span>04</span><h3>Seguimiento</h3><p>Soporte posventa, monitoreo y orientación para mejor aprovechamiento del sistema.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos">
+      <div class="container section-head reveal">
+        <div>
+          <p class="section-kicker">Proyectos</p>
+          <h2>Proyectos solares para residencias, empresas y agro.</h2>
+        </div>
+        <p>Vea los principales tipos de aplicación atendidos por SOOLARWIN en todo Brasil y Paraguay.</p>
+      </div>
+
+      <div class="container gallery" data-gallery>
+        <button class="gallery-item reveal" data-title="Planta Residencial" data-img="assets/projeto-telhado.png">
+          <img src="assets/projeto-telhado.png" alt="Planta solar residencial en techo moderno" />
+          <span>Planta Residencial</span>
+        </button>
+        <button class="gallery-item reveal delay-1" data-title="Planta Empresarial" data-img="assets/hero-usina-solar.png">
+          <img src="assets/hero-usina-solar.png" alt="Planta solar empresarial de gran porte" />
+          <span>Planta Empresarial</span>
+        </button>
+        <button class="gallery-item reveal delay-2" data-title="Planta Agro" data-img="assets/projeto-solo.png">
+          <img src="assets/projeto-solo.png" alt="Planta solar agro en suelo" />
+          <span>Planta Agro</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="container faq-grid">
+        <div class="reveal">
+          <p class="section-kicker">Preguntas frecuentes</p>
+          <h2>Antes de instalar energía solar.</h2>
+          <p>Respuestas rápidas para ayudar al cliente a dar el primer paso.</p>
+        </div>
+        <div class="accordion" data-accordion>
+          <details class="reveal" open>
+            <summary>¿Cuánto puedo ahorrar?</summary>
+            <p>El ahorro varía según consumo, tarifa, ubicación, sombreado y tamaño del sistema. Atendemos Brasil y Paraguay con simulación personalizada para cada realidad.</p>
+          </details>
+          <details class="reveal delay-1">
+            <summary>¿El sistema funciona en días nublados?</summary>
+            <p>Sí. La generación disminuye con menor irradiación, pero el sistema continúa produciendo energía de acuerdo con las condiciones del día.</p>
+          </details>
+          <details class="reveal delay-2">
+            <summary>¿SOOLARWIN realiza proyectos para empresas?</summary>
+            <p>Sí. SOOLARWIN trabaja con tres líneas principales: plantas residenciales, plantas empresariales y plantas agro, con atención en todo Brasil y Paraguay.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-kicker">¿Hablamos?</p>
+          <h2>Solicite un análisis gratuito de su proyecto.</h2>
+          <p>
+            Complete el formulario y genere un mensaje listo para WhatsApp con los datos de su proyecto.
+          </p>
+          <div class="contact-list">
+            <a class="contact-whatsapp" href="https://wa.me/55459991141399?text=Hola%2C%20quiero%20hablar%20con%20SOOLARWIN." target="_blank" rel="noreferrer"><svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16.04 3.2A12.74 12.74 0 0 0 5.08 22.43L3.4 28.8l6.52-1.62A12.74 12.74 0 1 0 16.04 3.2Zm0 2.34a10.4 10.4 0 0 1 8.83 15.9 10.4 10.4 0 0 1-13.78 3.56l-.46-.27-3.88.96 1-3.76-.3-.49A10.4 10.4 0 0 1 16.04 5.54Zm-5.02 5.5c-.24.54-.5 1.08-.5 1.76 0 .68.36 1.35.52 1.57.17.22 1.87 2.98 4.61 4.06 2.28.9 2.74.72 3.24.68.5-.04 1.61-.66 1.84-1.3.23-.64.23-1.18.16-1.3-.07-.12-.25-.2-.52-.34-.27-.14-1.61-.8-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.47.07-.72.34Z"/></svg>(45)99911-4139</a>
+            <a href="mailto:contato@soolarwin.com.br">contato@soolarwin.com.br</a>
+            <span>Atención en todo Brasil y Paraguay</span>
+          </div>
+        </div>
+
+        <form class="lead-form reveal delay-1" data-lead-form>
+          <div class="form-row">
+            <label>Nombre completo<input name="name" type="text" placeholder="Su nombre" required /></label>
+            <label>WhatsApp<input name="phone" type="tel" placeholder="(45) 99911-4139" required /></label>
+          </div>
+          <div class="form-row">
+            <label>E-mail<input name="email" type="email" placeholder="seuemail@exemplo.com" /></label>
+            <label>Tipo de proyecto
+              <select name="project" required>
+                <option value="">Seleccione</option>
+                <option>Planta Residencial</option>
+                <option>Planta Empresarial</option>
+                <option>Planta Agro</option>
+                <option>Mantenimiento / ampliación</option>
+              </select>
+            </label>
+          </div>
+          <label>Mensaje<textarea name="message" placeholder="Cuéntenos un poco sobre su factura de energía, ciudad/país y objetivo del proyecto"></textarea></label>
+          <button class="btn btn--primary btn--full" type="submit">Enviar por WhatsApp</button>
+          <p class="form-note" data-form-note>Los datos no se guardan en este archivo. El botón abre una conversación en WhatsApp.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img src="assets/logo-soolarwin.png" alt="SOOLARWIN" />
+        <p>Energía solar & transición energética con sede en Jaraguá do Sul y atención en todo Brasil y Paraguay.</p>
+      </div>
+      <div>
+        <h3>Navegación</h3>
+        <a href="#inicio">Inicio</a>
+        <a href="#solucoes">Soluciones</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contato">Contacto</a>
+      </div>
+      <div>
+        <h3>Soluciones</h3>
+        <a href="#solucoes">Plantas Residenciales</a>
+        <a href="#solucoes">Plantas Empresariales</a>
+        <a href="#solucoes">Plantas Agro</a>
+        <a href="#processo">Consultoría técnica</a>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p>Sede en Jaraguá do Sul - SC</p>
+        <p>Atención: Brasil y Paraguay</p>
+        <p>WhatsApp: (45) 99911-4139</p>
+        <p>contato@soolarwin.com.br</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span data-year></span> SOOLARWIN. Todos los derechos reservados.</span>
+      <span>Desarrollado para alta conversión comercial.</span>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/55459991141399?text=Hola%2C%20quiero%20solicitar%20un%20presupuesto%20con%20SOOLARWIN." target="_blank" rel="noreferrer" aria-label="Llamar por WhatsApp"><svg class="wa-icon" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path d="M16.04 3.2A12.74 12.74 0 0 0 5.08 22.43L3.4 28.8l6.52-1.62A12.74 12.74 0 1 0 16.04 3.2Zm0 2.34a10.4 10.4 0 0 1 8.83 15.9 10.4 10.4 0 0 1-13.78 3.56l-.46-.27-3.88.96 1-3.76-.3-.49A10.4 10.4 0 0 1 16.04 5.54Zm-5.02 5.5c-.24.54-.5 1.08-.5 1.76 0 .68.36 1.35.52 1.57.17.22 1.87 2.98 4.61 4.06 2.28.9 2.74.72 3.24.68.5-.04 1.61-.66 1.84-1.3.23-.64.23-1.18.16-1.3-.07-.12-.25-.2-.52-.34-.27-.14-1.61-.8-1.86-.88-.25-.09-.43-.14-.61.14-.18.27-.7.88-.86 1.06-.16.18-.32.2-.59.07-.27-.14-1.15-.42-2.19-1.34-.81-.72-1.36-1.61-1.52-1.88-.16-.27-.02-.42.12-.56.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.14-.61-1.48-.84-2.03-.22-.53-.45-.46-.61-.47h-.52c-.18 0-.47.07-.72.34Z"/></svg></a>
+
+  <dialog class="image-modal" data-modal>
+    <button type="button" class="modal-close" data-modal-close aria-label="Cerrar">×</button>
+    <img src="" alt="" data-modal-img />
+    <h3 data-modal-title></h3>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
